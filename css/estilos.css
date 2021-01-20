@@ -1,0 +1,188 @@
+/*body
+{
+    background-color: rgb(202, 175, 238);
+}*/
+
+:root {
+    --red1: rgb(255, 58, 58);
+    --red2: rgb(255, 122, 122);
+    --blue1: rgb(31, 59, 216);
+    --blue2: rgb(152, 167, 255);
+    --white1: rgb(218, 218, 218);
+}
+
+h1 {
+    position: relative;
+    font-weight: 300;
+    margin: 40px 0px 80px 0px;
+}
+
+h1::after {
+    position: absolute;
+    content: "";
+    bottom: -20px;
+    left: 0px;
+    right: 0px;
+    background-image: url(../imagenes/Puntos.png);
+    background-size: 30px 16px;
+    margin: auto;
+    width: 30px;
+    height: 16px;
+}
+
+body {
+    font-size: 1rem;
+    font-family: 'Rubik', sans-serif;
+    background-color: sandybrown;
+    /* min-width: 300px; */
+}
+
+.mr-6 {
+    margin-right: 6rem;
+}
+
+.img-home {
+    height: 300px;
+}
+
+.carousel-control-prev {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, .5) 0, rgba(0, 0, 0, .0001) 100%);
+}
+
+.carousel-control-next {
+    background-image: linear-gradient(to left, rgba(0, 0, 0, .5) 0, rgba(0, 0, 0, .0001) 100%);
+}
+.title {
+    margin: 5rem 0 2rem 0;
+}
+.form {
+    border: .1px solid var(--red1);
+    max-width: 800px;
+    background-color: white;
+    margin-top: 4rem;
+}
+
+.btn-primary {
+    background-color: var(--blue1);
+}
+
+.btn>a {
+    text-decoration: none;
+    color: white;
+}
+
+/*productos varios*/
+.foto-productosvarios {
+    max-width: 100%;
+    display: block;
+    padding: 1rem;
+}
+
+.flex-productosvarios {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto 4rem auto;
+}
+
+.productos-varios {
+    flex: 1 1 200px;
+    margin: 2rem;
+    border: 1px solid var(--red1);
+    border-radius: 20px;
+    background-color: white;
+    transition-property: box-shadow;
+    transition-duration: .4s;
+}
+
+.productos-varios:hover {
+    box-shadow: 0px 0px 15px 5px var(--red1);
+}
+
+.productos-varios > h5 {
+    align-content: center;
+    padding: 1rem;
+    border-bottom: 1px solid var(--red1);
+}
+
+.productos-varios>img {
+    align-content: center;
+}
+
+
+/*Utiles Escolares*/
+.foto-utilesescolares {
+    max-width: 100%;
+    display: block;
+    padding: 1rem;
+}
+
+.flex-utilesescolares {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto 4rem auto;
+}
+
+.utiles-escolares {
+    flex: 1 1 200px;
+    margin: 2rem;
+    border: 1px solid var(--red1);
+    border-radius: 20px;
+    background-color: white;
+    transition-property: box-shadow;
+    transition-duration: .4s;
+}
+
+.utiles-escolares:hover {
+    box-shadow: 0px 0px 15px 5px var(--red1);
+}
+
+.utiles-escolares > h5 {
+    align-content: center;
+    padding: 1rem;
+    border-bottom: 1px solid var(--red1);
+}
+
+.utiles-escolares>img {
+    align-content: center;
+}
+
+/*productos-despensa*/
+.foto-productosdespensa {
+    max-width: 100%;
+    display: block;
+    padding: 1rem;
+}
+
+.flex-productosdespensa {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto 4rem auto;
+}
+
+.productos-despensa {
+    flex: 1 1 200px;
+    margin: 2rem;
+    border: 1px solid var(--red1);
+    border-radius: 20px;
+    background-color: white;
+    transition-property: box-shadow;
+    transition-duration: .4s;
+}
+
+.productos-despensa:hover {
+    box-shadow: 0px 0px 15px 5px var(--red1);
+}
+
+.productos-despensa > h5 {
+    align-content: center;
+    padding: 1rem;
+    border-bottom: 1px solid var(--red1);
+}
+
+.productos-despensa>img {
+    align-content: center;
+}
+
